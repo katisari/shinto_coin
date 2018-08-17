@@ -1,0 +1,8 @@
+<h1>Mine ShintoCoins</h1>
+
+<p>Here you can mine ShintoCoins by being the first to solve the algoirithm:</p>
+<p>{{display_Question}}</p>
+<form (submit)="submitAnswer()">
+  <input class="form-control" type="text" [(ngModel)]="answer" name="answer" />
+  <button type="submit" class="btn btn-primary">Mine</button>
+</form>

@@ -1,0 +1,8 @@
+<h1>{{method}} ShintoCoins</h1>
+
+  <span>Current ShintoCoin Value: ${{current_val}}</span><br>
+  <span>Number of ShintoCoins Owned: {{num_coins}}</span>
+  <form (submit)="submitForm()">
+    <input type="text" placeholder="Number" class="form-control" [(ngModel)]="input_number" name="input_number"/>
+    <input type="submit" class="btn btn-primary" [value]="method">
+  </form>
